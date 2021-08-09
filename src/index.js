@@ -11,6 +11,7 @@ import {store,persistor} from './store'
 import { CSSTransition,TransitionGroup } from 'react-transition-group'
 import {routes} from './router';
 import Landing from './pages/landing';
+import { ChakraProvider } from "@chakra-ui/react"
 
 
 const Root = (props)=>{
@@ -62,7 +63,9 @@ const Root = (props)=>{
 
 ReactDOM.render(
   <React.StrictMode>
-    <Root />
+    <ChakraProvider>
+      <Root />
+    </ChakraProvider>
   </React.StrictMode>
   ,document.getElementById('root')
 );
