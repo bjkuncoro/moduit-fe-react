@@ -2,7 +2,7 @@
 
 
 NOTE: 
-I m sorry for not using Next Js, Im on Working to design my own Next Js boilerplate, and im not finish it yet, so for this test im decide to use my React CRA boilerplate template rather than Next Js. 
+I m sorry for not using Next Js, Im on Working to design my own Next Js boilerplate, and im not finish it yet, so for this test i decide to use my React CRA boilerplate template rather than Next Js. 
 
 dont forget to run 
 ```
