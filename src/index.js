@@ -32,7 +32,7 @@ const Root = (props)=>{
                   <Route key={i.path} path={`${process.env.REACT_APP_PUBLIC_URL}${i.path}`} component={i.Component} />
                 )
               })}
-              <App>
+              {/* <App>
                 <Route exact path={`${process.env.REACT_APP_PUBLIC_URL}/`} render={() => {
                     return (<Redirect to={`${process.env.REACT_APP_PUBLIC_URL}/beranda`} />)
                 }} />
@@ -51,7 +51,7 @@ const Root = (props)=>{
                     </Route>
                     ))}
               </TransitionGroup> 
-            </App>
+            </App> */}
             </Switch>
           </BrowserRouter>
         </PersistGate>
